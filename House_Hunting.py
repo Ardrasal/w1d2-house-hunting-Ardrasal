@@ -1,4 +1,5 @@
 monthly_salary = int(input("Enter your annual salary: ")) / 12
+# annual_salary = int("Enter your annual salary: ")
 portion_saved = float(input("Enter the percent of your salary to save, as a decimal: "))
 total_cost = int(input("Enter the cost of your dream home: "))
 # total_cost = int(total_cost)
@@ -24,7 +25,9 @@ while (current_savings <= portion_down_payment):
     months = months + 1
 # print when months stop increasing by 1/print months when conditions are met--stuck here!!
 # If (months = )
-    
 
+print("Enter your annual salary: " + str(monthly_salary * 12))   
+print("Enter the percent of your salary to save, as a decimal: " + str(portion_saved))
+print("Enter the cost of your dream home: " + str(total_cost))
 print("Number of months: " + str(months))
 
